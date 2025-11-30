@@ -43,7 +43,7 @@ void showHotDays(float** p, int d, int h){
 
     if (!cnt) cout << "Теплых дней нет" << endl;
     else{
-
+        cout << "Теплые дни:" << endl;
         for (int i = 0; i < d; i++){
         day_ave = dayAverage(*(p+i), h);
             if (day_ave > ave){
